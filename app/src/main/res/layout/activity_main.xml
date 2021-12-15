@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+          <!--  <ImageButton
+                android:id="@+id/btnChoosePuzzle"
+                android:layout_width="106dp"
+                android:layout_height="98dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="Choose Puzzle"
+                android:onClick="onClick"
+                android:soundEffectsEnabled="false"
+                app:srcCompat="@drawable/ic_play" />-->
+
+            <TextView
+                android:id="@+id/lblChoosePuzzle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onClick"
+                android:paddingLeft="16sp"
+                android:paddingRight="16sp"
+                android:soundEffectsEnabled="false"
+                android:text="START GAME"
+                android:textColor="@color/white"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </TableRow>
+        <TableRow
+            android:paddingVertical="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+          <!--  <ImageButton
+                android:id="@+id/btnExit"
+                android:layout_width="106dp"
+                android:layout_height="98dp"
+                android:background="#00FFFFFF"
+                android:contentDescription="@string/btn_exit_descr"
+                android:onClick="onClick"
+                android:soundEffectsEnabled="false"
+                android:tint="#FFFFFF"
+                app:srcCompat="@drawable/ic_exit" />-->
+
+            <TextView
+                android:gravity="center"
+                android:id="@+id/lblExit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:focusable="true"
+                android:onClick="onClick"
+                android:paddingLeft="16sp"
+                android:paddingRight="16sp"
+                android:soundEffectsEnabled="false"
+                android:text="EXIT"
+                android:textColor="#EFEFEF"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

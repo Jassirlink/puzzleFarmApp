@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PuzzleFarm</string>
+    <string name="btn_Puzzle1">Puzzle 3x3</string>
+    <string name="btn_Puzzle2">Puzzle 4x4</string>
+    <string name="btn_Puzzle3">Puzzle 5x5</string>
+    <string name="puzzle_invalid_move">Invalid move!</string>
+    <string name="puzzle_solved">Puzzle solved!</string>
+    <string name="switch_sounds">Enable sounds</string>
+    <string name="switch_music">Enable music</string>
+    <string name="about">This app is made by: Navas jaseer</string>
+</resources>
